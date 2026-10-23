@@ -4219,7 +4219,7 @@ textarea:focus {
     .professional-skills-subtitle  ul li i, .professional-skills-subtitle  ul h4 i
     {
         /*font-size: 1.5em;*/
-        padding-right: 1.25em;
+        /*padding-right: 1.25em;*/
     }
     /*========================================Skills======================================================*/
     #work-experience {
@@ -4357,3 +4357,36 @@ select {
 .logo .st0, .logo .st1 {
     fill: #6cb52d;
 }
+
+
+.bash-logo-item {
+    display: flex;
+    gap: 0.75em;
+}
+
+.bash-logo-item img {
+    width: 1em;
+}
+
+
+.project-tile-container {
+    background:white;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+
+
+
+ i {
+    /*padding-right: 0.75em;*/
+}
+
+ .skill-icon {
+     width: 1em;
+     height: 1em;
+ }
+
+ .svg-icon {
+     margin-right: 0.75em;
+ }
