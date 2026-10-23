@@ -227,7 +227,106 @@
 
 		});
 
-
+	// // Menu.
+	// var lang = $('#lang'),
+	// 	$langInner;
+	//
+	// lang.wrapInner('<div class="inner"></div>');
+	// $langInner = $lang.children('.inner');
+	// $lang._locked = false;
+	//
+	// $lang._lock = function() {
+	//
+	// 	if ($lang._locked)
+	// 		return false;
+	//
+	// 	$lang._locked = true;
+	//
+	// 	window.setTimeout(function() {
+	// 		$lang._locked = false;
+	// 	}, 350);
+	//
+	// 	return true;
+	//
+	// };
+	//
+	// $lang._show = function() {
+	//
+	// 	if ($lang._lock())
+	// 		$body.addClass('is-menu-visible');
+	//
+	// };
+	//
+	// $lang._hide = function() {
+	//
+	// 	if ($lang._lock())
+	// 		$body.removeClass('is-menu-visible');
+	//
+	// };
+	//
+	// $lang._toggle = function() {
+	//
+	// 	if ($lang._lock())
+	// 		$body.toggleClass('is-menu-visible');
+	//
+	// };
+	//
+	// $langInner
+	// 	.on('click', function(event) {
+	// 		event.stopPropagation();
+	// 	})
+	// 	.on('click', 'a', function(event) {
+	//
+	// 		var href = $(this).attr('href');
+	//
+	// 		event.preventDefault();
+	// 		event.stopPropagation();
+	//
+	// 		// Hide.
+	// 		$lang._hide();
+	//
+	// 		// Redirect.
+	// 		window.setTimeout(function() {
+	// 			window.location.href = href;
+	// 		}, 250);
+	//
+	// 	});
+	//
+	// $lang
+	// 	.appendTo($body)
+	// 	.on('click', function(event) {
+	//
+	// 		event.stopPropagation();
+	// 		event.preventDefault();
+	//
+	// 		$body.removeClass('is-menu-visible');
+	//
+	// 	})
+	// 	.append('<a class="close" href="#lang">Close</a>');
+	//
+	// $body
+	// 	.on('click', 'a[href="#lang"]', function(event) {
+	//
+	// 		event.stopPropagation();
+	// 		event.preventDefault();
+	//
+	// 		// Toggle.
+	// 		lang._toggle();
+	//
+	// 	})
+	// 	.on('click', function(event) {
+	//
+	// 		// Hide.
+	// 		lang._hide();
+	//
+	// 	})
+	// 	.on('keydown', function(event) {
+	//
+	// 		// Hide on escape.
+	// 		if (event.keyCode == 27)
+	// 			$lang._hide();
+	//
+	// 	});
 
 
 	// Menu.

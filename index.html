@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
     <title>Alexander Cohen - </title>
     <meta charset="utf-8"/>
@@ -20,9 +20,20 @@
     <header id="header" class="alt style2">
         <a href="index.html" class="logo"><strong>Alex Cohen</strong> <span>Portfolio</span></a>
         <nav>
+            <select name="" class="language-select" onchange="window.location.href=this.value">
+                <option selected value="index.html">EN</option>
+                <option value="fr.html">FR</option>
+            </select>
             <a href="#menu">Menu</a>
         </nav>
     </header>
+
+    <!--    <nav id="language-menu">-->
+    <!--        <ul class="links">-->
+    <!--            <li><a href="">English</a></li>-->
+    <!--            <li><a href="">French</a></li>-->
+    <!--        </ul>-->
+    <!--    </nav>-->
 
     <!-- Menu -->
     <nav id="menu">
@@ -54,10 +65,11 @@
             <div class="main-contact">
                 <ul>
                     <li><a href="mailto:work.alex.c@gmail.com" class="fas fa-envelope"> work.alex.c@gmail.com</a></li>
-                    <li><a href="Portfolio/file/Alexander%20Cohen,%20Web%20Developer.pdf" download class="fas fa-download">
-                        Resume/CV</a></li>
+                    <li><a href="Portfolio/file/Alexander%20Cohen,%20Web%20Developer.pdf" download
+                           class="fas fa-download">CV</a></li>
                     <li><a href="tel:514-248-8638" class="fas fa-phone"> 514-248-8638</a></li>
-                    <li><a href="https://github.com/alexeliecohen" class="fab fa-github" target="_blank"> Github Profile</a></li>
+                    <li><a href="https://github.com/alexeliecohen" class="fab fa-github" target="_blank"> Github
+                        Profile</a></li>
                     <li><a href="https://www.linkedin.com/in/alexander-cohen-78594466/" target="_blank"
                            class="fab fa-linkedin"> LinkedIn</a></li>
                 </ul>
@@ -74,14 +86,15 @@
                     <h2>Work Experience</h2>
                 </header>
                 <ul class="work-experience-list">
-                    <img src="./Portfolio/images/Adaptive-Logo.svg"  id="adaptive-logo"/>
+<!--                    <img src="./Portfolio/images/Adaptive-Logo.svg" id="adaptive-logo"/>-->
+                    <img src="./Portfolio/images/adaptive.svg" id="adaptive-logo"/>
 
                     <h3>Full Stack Web Developer</h3>
 
                     <li><i class="fa fa-code"></i> Java Spring, Kafka, Typescript React/Angular, Postgresql, Redis</li>
                     <li class="work-experience-location">
                         <ul>
-                            <li><i class="fa fa-calendar"></i> Dec 2021 - <strong> Current </strong></li>
+                            <li><i class="fa fa-calendar"></i> Feb 2022 - <strong> Current </strong></li>
                             <li><i class="fa fa-building"></i> Adaptive Financial Consulting</li>
                             <li><i class="fa fa-map-marker-alt"></i> Montreal, QC</li>
                         </ul>
@@ -115,48 +128,6 @@
                     </li>
 
                 </ul>
-                <hr>
-
-                <ul class="work-experience-list">
-                    <img src="Portfolio/images/Biosyncrotek-logo.svg" alt="" id="bst-logo">
-
-                    <!--                    <li> Full Stack Web Developer</li>-->
-
-                    <h3>Full Stack Web Developer</h3>
-                    <li><i class="fa fa-code"></i> Typescript NodeJS, React, Python, RabbitMQ, MongoDB, Redis</li>
-                    <li class="work-experience-location">
-                        <ul>
-                            <li><i class="fa fa-calendar"></i> Sep. 2019 - Nov. 2021</li>
-                            <li><i class="fa fa-building"></i> BioSyncroTek Consulting</li>
-                            <li><i class="fa fa-map-marker-alt"></i> Montreal, QC</li>
-                        </ul>
-                    </li>
-                    <hr>
-                    <li class="work-experience-details">
-                        Collaborated with clients across several domains in the fields of pharmaceuticals and medicine
-                        as a part of an independent consulting team.
-                    </li>
-                    <li class="work-experience-details">
-                        Developed/maintained large real-time pharmaceutical web applications achieving high throughput
-                        using an event-driven microservices architecture.
-                    </li>
-                    <li class="work-experience-details">
-                        Developed frontend applications using React/NextJs framework while managing state using Redux.
-                    </li>
-                    <li class="work-experience-details">
-                        Transferred legacy systems into modern frameworks providing significant improvements in
-                        scalability/performance
-                    </li>
-                    <li class="work-experience-details">
-                        Furthermore reduced infrastructure costs by deploying applications from traditional mainframes
-                        to
-                        flexible cloud-based applications.
-                    </li>
-                    <li class="work-experience-details">
-                        Re-designed traditional monolith systems into a more scalable, performant microservice
-                        architecture.
-                    </li>
-                </ul>
             </div>
         </section>
 
@@ -165,43 +136,59 @@
         <section id="two">
             <div class="inner" id="projects">
                 <header class="major">
-                    <h2>Projects</h2>
+                    <h2>Client Projects</h2>
                 </header>
                 <div class="project-panels">
                     <article>
                         <a href="#" class="image">
-                            <img src="Portfolio/images/ecommerce-cart.png" alt="">
-                            <!--                            <div class="centered">Live Demo</div>-->
+                            <img src="Portfolio/images/nbc-logo.svg" alt="">
                         </a>
-                        <h3 class="major">Ecommerce Application</h3>
+                        <h3 class="major">Fraud Prevention & Detection</h3>
 
-                        <p>Fully developed custom made Ecommerce application using Python and Javascript. </p>
-                        <p><i class="fas fa-user-cog"></i> Team Lead (Group of 12) </p>
-                        <p><i class="fas fa-code"></i> Python Django, VueJS, HTML, CSS</p>
-                        <p><a href="https://github.com/alexeliecohen/Ecommerce_Platform" target="_blank"><i
-                                class="fab fa-github"></i> Github Repo</a></p>
+                        <p>Team responsible for processing bank credit card transactions to detect for fraud, and money laundering </p>
+                        <p>Designed a transaction screening system on AWS cloud using LLMs to detect for potential fraudulent activity</p>
+                        <p>Assisted in creating a automated notification service based on SNS to automatically send generated reports for detection
+                            of senisitive information </p>
+                        <p>Designed and implemented infrastructure </p>
+                        <p><i class="fas fa-user-cog"></i>Mid Level Engineer</p>
+                        <p><i class="fas fa-code"></i> Terraform, Java Spring 21, AWS, Git Actions, Github Copilot</p>
 
-                        <!--                        <a href="#" class="special">Learn more</a>-->
                     </article>
+                    <article>
+                        <a href="#" class="image">
+                            <img src="Portfolio/images/mercado.svg" alt="">
+                        </a>
+                        <h3 class="major">Cryptocurrency Exchange Platform</h3>
+                        <p>Built out a functional trading system using high-throughput low-latency java based Adaptive enterprise solution.</p>
+                        <p>Assisted in order placement, capture, enrichment, matching and business rules validation</p>
+                        <p>Created a custom service to forward order events from into a Kafka topic used for accounting trade history</p>
+                        <p>Built out a Request for Quote (RFQ) system</p>
+                        <p>Worked with OpenAPi specification to setup a CRUD API for managing financial instruments</p>
+                        <div>
+
+                        </div>
+                        <p><i class="fas fa-user-cog"></i> Mid Level Engineer</p>
+                        <p><i class="fas fa-code"></i> Java Spring 21, Adaptive Java-based IP, Apache Kafka, React, Gitlab CI/CD</p>
+
+                    </article>
+
                     <article>
                         <a href="#" class="image">
                             <!--                            <img id="grocery" src="images/Grocery-Order-Logo.jpg" alt="" >-->
-                            <img id="grocery" src="Portfolio/images/pngegg%20(2)%20(1).png" alt="">
+                            <img id="grocery" src="Portfolio/images/state-street-logo.svg" alt="">
                             <!--                            <div class="centered"><mark>Live Demo</mark></div>-->
                         </a>
-                        <h3 class="major">Food Ordering Application</h3>
-                        <p>Online food ordering system as an alternative service to UberEats and Doordash,
-                            using Java Spring and React Technologies.</p>
+                        <h3 class="major"></h3>
+                        <p>Worked alongside a team located in Brazil to provide a new market trading exchange for cryptocurrency pair trading.</p>
                         <p><i class="fas fa-user-cog"></i> Independent Project </p>
-                        <p><i class="fas fa-code"></i> Java Spring (JPA, Spring Security), React Native, SASS, Docker,
-                            Google Compute Engine
+                        <p><i class="fas fa-code"></i> Java Spring 21, Platform Exchange,
+
+                            Java Native and Java Spring, Apache Kafka, Docker, Kubernetes
                         <p>
-                        <p><a href="https://github.com/alexeliecohen/food-order-application-backend" target="_blank"><i
-                                class="fab fa-github"></i> Github Repo</a></p>
                     </article>
                     <article>
                         <a href="#" class="image">
-                            <img src="Portfolio/images/pngegg%20(4)%20(1).png" alt="">
+                            <img src="Portfolio/images/broadridge-logo.svg" alt="">
                             <!--                            <div class="centered">Live Demo</div>-->
                         </a>
                         <h3 class="major">MonoLink Music Application</h3>
@@ -210,13 +197,10 @@
                         <p><i class="fas fa-user-cog"></i> Team Project (2 Team Members) </p>
                         <p><i class="fas fa-code"></i> Typescript NodeJS, Typescript React Native, SASS, Docker
                         <p>
-                        <p><a href="https://github.com/alexeliecohen/monolink-service" target="_blank"><i
-                                class="fab fa-github"></i> Github Repo</a></p>
-                        <!--                        <a href="#" class="special">Learn more</a>-->
                     </article>
                     <article>
                         <a href="#" class="image">
-                            <img src="Portfolio/images/pngegg%20(3).png" alt="">
+                            <img src="Portfolio/images/usb-logo.svg" alt="">
                             <!--                            <div class="centered">Live Demo</div>-->
                         </a>
                         <h3 class="major">Live Chat Application</h3>
@@ -224,15 +208,13 @@
                         <p><i class="fas fa-user-cog"></i> Team Lead (Group of 4) </p>
                         <p><i class="fas fa-code"></i> J2EE Backend, React Frontend, SASS, Docker
                         <p>
-                        <p><a href="https://github.com/alexeliecohen/Live-Chat-Application" target="_blank"><i
-                                class="fab fa-github"></i> Github Repo</a></p>
                     </article>
 
                 </div>
-                <ul class="actions">
-                    <li><a href="https://github.com/alexeliecohen?tab=repositories" target="_blank"
-                           class="button next">More Projects</a></li>
-                </ul>
+<!--                <ul class="actions">-->
+<!--                    <li><a href="https://github.com/alexeliecohen?tab=repositories" target="_blank"-->
+<!--                           class="button next">More Projects</a></li>-->
+<!--                </ul>-->
             </div>
         </section>
         <!-- Three -->
@@ -247,7 +229,23 @@
                         <div>
                             <div class="technical-skills-subtitle">
                                 <ul>
+                                    <h4><i class="fas fa-code"></i>Languages</h4>
+                                    <li><i class="fab fa-java"></i>Java</li>
+                                    <li>
+                                       Typescript</li>
+                                    <li>
+                                        <img
+                                                width="30px"
+                                                style="padding-right: 1.25em;"
+                                                src="Portfolio/images/cpp-logo.svg">
+                                        C++</li>
+                                </ul>
+                            </div>
+                            <div class="technical-skills-subtitle">
+                                <ul>
                                     <h4><i class="icon solid alt fas fa-desktop"></i>Frontend</h4>
+                                    <li><i class="fab fa-react"></i>React</li>
+                                    <li><i class="fab fa-angular"></i>Angular</li>
                                     <li><i class="fab fa-html5"></i>HTML</li>
                                     <li><i class="fab fa-css3-alt"></i>CSS</li>
                                     <li><i class="fab fa-sass"></i>SASS</li>
@@ -257,37 +255,39 @@
                                 <ul>
                                     <h4><i class="icon solid alt fas fa-server"></i>Backend</h4>
                                     <li><i class="fab fa-node-js"></i>NodeJS</li>
-                                    <li><i class="fab fa-php"></i>Php</li>
-                                    <li><i class="fa fa-feather-alt"></i>Apache/REST</li>
+                                    <li>
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                             viewBox="0 0 2674.9 417" class="logo">
+                                            <g>
+                                                <path class="st0"
+                                                      d="M366.9,29c-5.8,14.1-13.3,26.6-21.6,37.8c-36.6-37.3-87.8-61-144.3-61C90,5.8-0.7,96-0.7,207.4 c0,58.2,24.9,110.6,64.4,147.6l7.5,6.7c34.9,29.5,80.3,47.4,129.7,47.4c106,0,193.3-82.7,200.8-187.1 C407.7,171.3,392.3,106.4,366.9,29z M92.9,356.7c-5.8,7.5-16.6,8.3-24.1,2.5s-8.3-16.6-2.5-24.1s16.6-8.3,24.1-2.5 C97.5,338.4,98.7,349.2,92.9,356.7z M365.7,296.4c-49.5,66.1-155.9,43.7-223.7,47c0,0-12.1,0.8-24.1,2.5c0,0,4.6-2.1,10.4-4.2 c47.8-16.6,70.3-20,99.4-34.9c54.5-27.9,108.9-89,119.8-152.2c-20.8,60.7-84,113.1-141.4,134.3c-39.5,14.6-110.6,28.7-110.6,28.7 l-2.9-1.7c-48.2-23.7-49.9-128.5,38.3-162.2c38.7-15,75.3-6.7,117.3-16.6c44.5-10.4,96.1-43.7,116.8-87.3 C388.1,120.1,416.4,229,365.7,296.4z"></path>
+                                            </g>
+                                            <path class="st3"
+                                                  d="M365.7,296.4c-49.5,66.1-155.9,43.7-223.7,47c0,0-12.1,0.8-24.1,2.5c0,0,4.6-2.1,10.4-4.2 c47.8-16.6,70.3-20,99.4-34.9c54.5-27.9,108.9-89,119.8-152.2c-20.8,60.7-84,113.1-141.4,134.3c-39.5,14.6-110.6,28.7-110.6,28.7 l-2.9-1.7c-48.2-23.7-49.9-128.5,38.3-162.2c38.7-15,75.3-6.7,117.3-16.6c44.5-10.4,96.1-43.7,116.8-87.3 C388.1,120.1,416.4,229,365.7,296.4z"></path>
+                                        </svg>
+                                        <i class="fab fa-java"></i>Spring
+                                    </li>
                                     <li><i class="fas fa-database"></i>MySQL</li>
-                                    <li><i class="fas fa-database"></i>MongoDB</li>
+                                    <li>
+                                        <svg style="display: inline" xmlns="http://www.w3.org/2000/svg"
+                                             viewBox="0 0 1102 278" fill="none">
+                                            <path d="M82.3229 28.6444C71.5367 15.8469 62.2485 2.84945 60.351 0.149971C60.1512 -0.0499903 59.8515 -0.0499903 59.6518 0.149971C57.7542 2.84945 48.4661 15.8469 37.6798 28.6444C-54.9019 146.721 52.2613 226.406 52.2613 226.406L53.1601 227.006C53.959 239.303 55.9565 257 55.9565 257H59.9514H63.9463C63.9463 257 65.9438 239.403 66.7428 227.006L67.6416 226.306C67.7414 226.406 174.905 146.721 82.3229 28.6444ZM59.9514 224.606C59.9514 224.606 55.1576 220.507 53.8592 218.408V218.207L59.6518 89.6326C59.6518 89.2326 60.2511 89.2326 60.2511 89.6326L66.0436 218.207V218.408C64.7453 220.507 59.9514 224.606 59.9514 224.606Z"
+                                                  fill="#FFFFFF"/>
+                                        </svg>
+                                        <i class="fas fa-database"></i>MongoDB
+                                    </li>
                                 </ul>
                             </div>
                             <div class="technical-skills-subtitle">
                                 <ul>
                                     <h4><i class="icon solid alt fas fa-tools"></i>Tools</h4>
-                                    <li><i class="fas fa-code-branch"></i>Git Flow</li>
-                                    <li><i class="fab fa-github"></i>Github</li>
+                                    <li><i class="fab fa-
+
+                                    github"></i>Github</li>
                                     <li><i class="fab fa-java"></i>JUnit</li>
                                     <li><i class="fab fa-docker"></i>Docker</li>
-                                    <li><i class="fab fa-linux"></i>Bash/Linux</li>
-                                </ul>
-                            </div>
-                            <div class="technical-skills-subtitle">
-                                <ul>
-                                    <h4><i class="icon solid alt fas fa-laptop-code"></i>Frameworks</h4>
-                                    <li><i class="fab fa-react"></i>React</li>
-                                    <li><i class="fab fa-python"></i>Python Django</li>
-                                    <li><i class="fab fa-java"></i>Java Spring</li>
-                                </ul>
-                            </div>
-                            <div class="technical-skills-subtitle">
-                                <ul>
-                                    <h4><i class="icon solid alt fa fa-cog"></i> Other</h4>
-
-                                    <li><i class="fas fa-cogs"></i>CI/CD</li>
-                                    <li><i class="fab fa-cuttlefish"></i> C++</li>
-                                    <li><i class="fas fa-cogs"></i> Data Science & ML</li>
+                                    <li><i class="fab fa-linux"></i>Bash</li>
+                                    <li><img src="./Portfolio/images/bash-logo.svg" alt="">Bash</li>
                                 </ul>
                             </div>
                         </div>

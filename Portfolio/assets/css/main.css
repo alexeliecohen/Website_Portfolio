@@ -4045,6 +4045,9 @@ body.is-menu-visible #menu .inner {
 #projects article .image img {
     border-radius: 5px 5px 0 0;
     width: 100%;
+    height: 229px;
+    background: white;
+    padding: 0 1em;
 }
 
 
@@ -4297,4 +4300,60 @@ textarea:focus {
 }
 .education-underline:after {
     max-width:35%;
+}
+
+.language {
+    padding: 0;
+    margin: 0 0.75em;
+    height: inherit;
+    box-shadow: none;
+    font-size: 2rem;
+    /*transform: rotate(90deg);*/
+
+}
+.language:hover {
+    box-shadow: none;
+}
+
+/*#lang {*/
+/*    position: fixed;*/
+/*    right: 8%;*/
+/*    top: 7%;*/
+/*    background: black;*/
+/*    border-radius: 5%;*/
+/*}*/
+
+/*#lang option:hover {*/
+/*    cursor: grab;*/
+/*    color: blue;*/
+/*}*/
+
+.language-select {
+    width: 5em;
+    cursor:grab;
+    height: 2em;
+    margin-top: 0.75em;
+    outline: none;
+}
+
+select {
+    background-image: url("/Portfolio/images/language-select.svg");
+    box-shadow: none;
+    /*background-position-x: left;*/
+    /*text-align: rigfht;*/
+}
+
+.language-select {
+    /*-webkit-appearance: none;*/
+    /*-moz-appearance: none;*/
+    /*appearance: none;*/
+    /*background: url("/Portfolio/images/language-select.svg");*/
+}
+
+.logo .st3 {
+    fill: #fff;
+}
+
+.logo .st0, .logo .st1 {
+    fill: #6cb52d;
 }
