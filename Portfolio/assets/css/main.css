@@ -1936,7 +1936,6 @@ textarea:invalid {
 }
 
 
-
 select {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(212, 212, 255, 0.1)' /%3E%3C/svg%3E");
     background-size: 1.25em;
@@ -3954,38 +3953,44 @@ body.is-menu-visible #menu .inner {
         flex-wrap: wrap;
     }
 }
+
 @media screen and (max-width: 480px) {
     .main-contact ul {
         list-style-type: none;
 
         flex-direction: column;
     }
+
     .main-contact li {
         margin: 1em 0 0 0;
 
     }
 }
+
 /*========================================BIO======================================================*/
 
 /*========================================Skills======================================================*/
 .technical-skills div, .professional-skills div {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-wrap: wrap;
 
 }
+
 .technical-skills-subtitle, .professional-skills-subtitle {
     /*color: green;*/
     flex-grow: 4;
 }
-.technical-skills-subtitle ul li, .professional-skills-subtitle  ul li {
+
+.technical-skills-subtitle ul li, .professional-skills-subtitle ul li {
     list-style-type: none;
 }
-.technical-skills-subtitle ul li i, .professional-skills-subtitle  ul li i,
-.technical-skills-subtitle ul h4 i, .professional-skills-subtitle  ul h4 i {
 
-    margin: 0 0.75em  0 0;
+.technical-skills-subtitle ul li i, .professional-skills-subtitle ul li i,
+.technical-skills-subtitle ul h4 i, .professional-skills-subtitle ul h4 i {
+
+    margin: 0 0.75em 0 0;
 }
 
 
@@ -3994,16 +3999,16 @@ body.is-menu-visible #menu .inner {
 #education {
     margin: 4em 0 0 0;
 }
+
 .education p {
     max-width: 80%;
     margin: 0;
 }
-.education h4 {
-    margin-top: 2em;
+
+.education h4 i, .awards-participation h4 i {
+    margin-right: 0.75em;
 }
-.awards-participation {
-    margin: 0 0 0 1em;
-}
+
 /*========================================Education======================================================*/
 
 .features {
@@ -4018,8 +4023,9 @@ body.is-menu-visible #menu .inner {
 /*Work Experience section*/
 .work-experience-list li {
     list-style-type: none;
-    padding:0;
+    padding: 0;
 }
+
 .work-experience-location {
     margin: 1em 0 0 0;
 }
@@ -4029,19 +4035,23 @@ body.is-menu-visible #menu .inner {
     padding: 0;
     list-style-type: none;
 }
+
 .work-experience-location ul li:not(:first-child) {
     margin-left: 0.5em;
 }
+
 .work-experience-details {
     list-style-type: disc !important;
     margin-bottom: 0.5em;
 }
+
 /*========================================Work Experience======================================================*/
 /*========================================Projects======================================================*/
 .special {
     /*margin-bottom:3em;*/
     /*padding: 0 0 2em 0;*/
 }
+
 #projects article .image img {
     border-radius: 5px 5px 0 0;
     width: 100%;
@@ -4056,29 +4066,34 @@ body.is-menu-visible #menu .inner {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    visibility:hidden;
+    visibility: hidden;
 }
+
 .image {
-    margin-left:auto;
+    margin-left: auto;
 }
-.image:hover div{
+
+.image:hover div {
     visibility: visible;
 }
+
 .image img {
     border-radius: 5px;
     display: block;
 }
+
 .image:hover {
     visibility: visible !important;
 }
+
 .image img:hover, .image:hover {
     opacity: 0.5;
     background: white;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
     visibility: visible;
     color: black;
     /*box-shadow: 10px 10px 5px #888888;*/
@@ -4087,8 +4102,9 @@ body.is-menu-visible #menu .inner {
 .centered {
     color: #009dff;
     /*opacity:1;*/
-    font-weight:bold;
+    font-weight: bold;
 }
+
 #projects article {
     padding: 1.75em 1.75em 2em 1.75em;
     background-color: #353849;
@@ -4101,17 +4117,20 @@ body.is-menu-visible #menu .inner {
     margin: 1em 2em 1em 0;
     width: calc(50% - 1em);
 }
+
 .project-panels {
     display: flex;
     flex-wrap: wrap;
     margin: 0 0 2em 0;
 }
+
 @media screen and (max-width: 480px) {
     #projects article {
         width: 100%;
         margin: 0 0 2em 0 !important;
     }
 }
+
 @media screen and (min-width: 736px) {
     #projects article {
         padding: 1.75em 1.75em 2em 1.75em;
@@ -4128,13 +4147,8 @@ body.is-menu-visible #menu .inner {
         width: calc(50% - 3em);
     }
 }
+
 /*========================================Projects======================================================*/
-
-
-
-
-
-
 
 
 .features article {
@@ -4144,6 +4158,7 @@ body.is-menu-visible #menu .inner {
     margin: 1.5em 3em 1.5em 0;
     width: calc(50% - 1.5em);
 }
+
 .project-tile {
     display: flex;
     flex-direction: column;
@@ -4183,6 +4198,7 @@ textarea {
     box-shadow: 0 0 0 2px white;
 
 }
+
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
@@ -4196,7 +4212,6 @@ textarea:focus {
 }
 
 
-
 @media screen and (min-width: 980px) {
     html {
         /*font-size:1.5em;*/
@@ -4204,47 +4219,51 @@ textarea:focus {
 }
 
 
-
-
 @media screen and (min-width: 980px) {
     /*========================================Skills======================================================*/
-    .technical-skills-subtitle ul, .professional-skills-subtitle  ul {
+    .technical-skills-subtitle ul, .professional-skills-subtitle ul {
         font-size: 1.25em;
     }
-    /*.technical-skills-subtitle ul li, .professional-skills-subtitle  ul li {*/
 
+    /*.technical-skills-subtitle ul li, .professional-skills-subtitle  ul li {*/
     /*    font-size: 1.5em;*/
     /*}*/
     .technical-skills-subtitle ul li i, .technical-skills-subtitle ul h4 i,
-    .professional-skills-subtitle  ul li i, .professional-skills-subtitle  ul h4 i
-    {
+    .professional-skills-subtitle ul li i, .professional-skills-subtitle ul h4 i {
         /*font-size: 1.5em;*/
         /*padding-right: 1.25em;*/
     }
+
     /*========================================Skills======================================================*/
     #work-experience {
         /*font-size: 1.25em;*/
     }
+
     .inner {
         font-size: 1.25em;
     }
+
     #contact {
         font-size: 1.25em;
     }
+
     /*========================================Skills======================================================*/
     /*========================================BIO======================================================*/
     .content, .main-contact {
         font-size: 1.25em;
     }
+
     .main-contact ul {
         padding: 0;
         /*margin: 0 0 2em 0;*/
     }
+
     /*========================================BIO======================================================*/
     /*========================================Education======================================================*/
     .education {
         font-size: 1.25em;
     }
+
     /*========================================Education======================================================*/
 
 
@@ -4255,31 +4274,36 @@ textarea:focus {
         font-size: 1.5em;
 
     }
+
     /*========================================BIO======================================================*/
     .content, .main-contact {
-        ""
+    ""
     }
-    .main-contact ul{
+
+    .main-contact ul {
         padding-left: 0;
     }
+
     /*========================================BIO======================================================*/
 
 }
+
 @media screen and (min-width: 2560px) {
     /*========================================BIO======================================================*/
     .content, .main-contact {
         /*font-size: 2.5em;*/
     }
+
     /*========================================BIO======================================================*/
 
 }
 
 .column {
-    column-count:2;
+    column-count: 2;
 }
 
 #grocery {
-    width:400px;
+    width: 400px;
 }
 
 #bst-logo {
@@ -4290,16 +4314,19 @@ textarea:focus {
     /*background: white;*/
     /*height: 100px;*/
 }
+
 #adaptive-logo {
     max-width: 100% !important;
     border: none;
     color: #27578c;
 }
+
 #adaptive-logo:hover {
-   color: rgba(128, 128, 128, 0.75);
+    color: rgba(128, 128, 128, 0.75);
 }
+
 .education-underline:after {
-    max-width:35%;
+    max-width: 35%;
 }
 
 .language {
@@ -4311,6 +4338,7 @@ textarea:focus {
     /*transform: rotate(90deg);*/
 
 }
+
 .language:hover {
     box-shadow: none;
 }
@@ -4330,7 +4358,7 @@ textarea:focus {
 
 .language-select {
     width: 5em;
-    cursor:grab;
+    cursor: grab;
     height: 2em;
     margin-top: 0.75em;
     outline: none;
@@ -4341,6 +4369,10 @@ select {
     box-shadow: none;
     /*background-position-x: left;*/
     /*text-align: rigfht;*/
+}
+
+option:active, option:focus, option:hover {
+    cursor: grab;
 }
 
 .language-select {
@@ -4358,35 +4390,34 @@ select {
     fill: #6cb52d;
 }
 
-
-.bash-logo-item {
-    display: flex;
-    gap: 0.75em;
-}
-
-.bash-logo-item img {
-    width: 1em;
-}
-
-
 .project-tile-container {
-    background:white;
+    background: white;
     border-radius: 5px;
     display: block;
     text-align: center;
 }
 
 
-
- i {
+i {
     /*padding-right: 0.75em;*/
 }
 
- .skill-icon {
-     width: 1em;
-     height: 1em;
- }
+.skill-icon {
+    width: 1em;
+    height: 1em;
+}
 
- .svg-icon {
-     margin-right: 0.75em;
- }
+.svg-icon-li {
+    display: flex;
+    align-items: center;
+}
+
+.svg-icon {
+    margin-right: 0.75em;
+}
+
+.awards-education-container {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
