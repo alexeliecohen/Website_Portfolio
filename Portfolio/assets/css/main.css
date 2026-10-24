@@ -4421,3 +4421,6 @@ i {
     justify-content: space-between;
     list-style: none;
 }
+.awards-education-container div {
+    width: 100%;
+}
