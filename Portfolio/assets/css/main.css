@@ -4473,3 +4473,16 @@ i {
     border-radius: 100%;
     color: #242943;
 }
+
+.project-tile-container:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    background: white;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    visibility: visible;
+    color: black;
+}

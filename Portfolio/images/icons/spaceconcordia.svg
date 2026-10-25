@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1208 1022" width="100%" height="100%">
+    <rect width="1208" height="1022" fill="#00000000" />
+    <g fill="#ffffff">
+        <!-- Outer Circle -->
+        <circle cx="604" cy="511" r="420" fill="none" stroke="#ffffff" stroke-width="12" />
+
+        <!-- Planetary Ring / Orbit Arc -->
+        <path d="M 175 570 C 350 480 850 460 642 985" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" />
+
+        <!-- Large Central Star / Sparkle -->
+        <path d="M 604 150 C 604 310 650 357 810 357 C 650 357 604 404 604 564 C 604 404 558 357 398 357 C 558 357 604 310 604 150 Z" />
+
+        <!-- Medium Right Star -->
+        <path d="M 678 570 C 678 630 695 647 755 647 C 695 647 678 664 678 724 C 678 664 661 647 601 647 C 661 647 678 630 678 570 Z" />
+
+        <!-- Small Bottom Star -->
+        <path d="M 390 730 C 390 765 400 775 435 775 C 400 775 390 785 390 820 C 390 785 380 775 345 775 C 380 775 390 765 390 730 Z" />
+    </g>
+</svg>
