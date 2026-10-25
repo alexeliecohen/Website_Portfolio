@@ -2896,7 +2896,7 @@ button:disabled,
 
 .contact-method {
     margin: 0 0 2em 0;
-    padding-left: 3.25em;
+    /*padding-left: 3.25em;*/
     position: relative;
 }
 
@@ -4001,7 +4001,7 @@ body.is-menu-visible #menu .inner {
 }
 
 .education p {
-    max-width: 80%;
+    /*max-width: 80%;*/
     margin: 0;
 }
 
@@ -4009,6 +4009,10 @@ body.is-menu-visible #menu .inner {
     margin-right: 0.75em;
 }
 
+.education p i {
+    margin-right: 0.75em;
+    
+}
 /*========================================Education======================================================*/
 
 .features {
@@ -4260,7 +4264,7 @@ textarea:focus {
 
     /*========================================BIO======================================================*/
     /*========================================Education======================================================*/
-    .education {
+    .education, .awards-participation {
         font-size: 1.25em;
     }
 
@@ -4424,7 +4428,48 @@ i {
 .awards-education-container div {
     width: 100%;
 }
+.awards-participation i {
+    margin-right: 0.75em;
+}
+
+.awards-participation {
+
+    /*text-align: just;*/
+}
 
 @media (max-width: 768px) {
 
+}
+
+.contact-method a:hover {
+    cursor: pointer;
+    color: rgb(155, 241, 255);
+}
+ .contact-method a:hover svg {
+     background: rgb(155, 241, 255);
+ }
+@media (min-width: 768px) {
+    .contact-method a {
+        width: 40%;
+    }
+}
+@media (min-width: 1440px) {
+    .contact-method a {
+        width: 30%;
+    }
+}
+.contact-method a {
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
+}
+.contact-method svg {
+    width: 1.5em;
+    height: 1.5em;
+    padding: 0.25em;
+    box-sizing: content-box;
+    overflow: visible;
+    background-color: #ffffff;
+    border-radius: 100%;
+    color: #242943;
 }
