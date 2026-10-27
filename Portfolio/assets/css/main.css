@@ -1785,12 +1785,12 @@ header.major > :first-child {
 }
 
 header.major > :first-child:after {
-    content: '';
-    background-color: #ffffff;
-    display: block;
-    height: 2px;
-    margin: 0.325em 0 0.5em 0;
-    width: 100%;
+    /*content: '';*/
+    /*background-color: #ffffff;*/
+    /*display: block;*/
+    /*height: 2px;*/
+    /*margin: 0.325em 0 0.5em 0;*/
+    /*width: 100%;*/
 }
 
 header.major > p {
@@ -4329,10 +4329,6 @@ textarea:focus {
     color: rgba(128, 128, 128, 0.75);
 }
 
-.education-underline:after {
-    max-width: 35%;
-}
-
 .language {
     padding: 0;
     margin: 0 0.75em;
@@ -4420,6 +4416,11 @@ i {
     margin-right: 0.75em;
 }
 
+li:has(.svg-icon) {
+    display: flex;
+    align-items: center;
+}
+
 .awards-education-container {
     display: flex;
     justify-content: space-between;
@@ -4485,4 +4486,16 @@ i {
     transition: .5s;
     visibility: visible;
     color: black;
+}
+
+.title-underline {
+    background-color: #ffffff;
+    height: 2px;
+    margin: 0.325em 0 0.5em 0;
+}
+
+.header-title {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.325em;
 }
