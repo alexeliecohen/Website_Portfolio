@@ -4499,3 +4499,12 @@ li:has(.svg-icon) {
     text-decoration-thickness: 2px;
     text-underline-offset: 0.325em;
 }
+
+.role-position-container, .role-code-container {
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
+}
+.role-code-container {
+    align-items: baseline;
+}
