@@ -4241,7 +4241,7 @@ textarea:focus {
 @media screen and (min-width: 980px) {
     /*========================================Skills======================================================*/
     .technical-skills-subtitle ul, .professional-skills-subtitle ul {
-        font-size: 1.25em;
+        /*font-size: 1.25em;*/
     }
 
     /*.technical-skills-subtitle ul li, .professional-skills-subtitle  ul li {*/
