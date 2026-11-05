@@ -4033,12 +4033,8 @@ body.is-menu-visible #menu .inner {
 /*========================================Work Experience======================================================*/
 
 /*Work Experience section*/
-.work-experience-list li {
-    list-style-type: none;
-    padding: 0;
-}
-
-.work-experience-location {
+.work-experience-list {
+    margin: 0 0 2em 1.5em;
 }
 
 .work-experience-location {
@@ -4421,6 +4417,16 @@ i {
     width: 1em;
     height: 1em;
     margin-right: 0.75em;
+}
+
+h2:has(.skill-icon) {
+    display:flex;
+    align-items: center;
+}
+
+h2 .skill-icon {
+    height: 1.75em;
+    width: 1.75em;
 }
 
 .svg-icon-li {
